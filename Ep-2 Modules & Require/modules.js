@@ -12,3 +12,8 @@ console.log(details); // [ 'Aswath', 'Hari', 'Hema' ]
 
 // For multiple datas
 console.log(details.age);
+
+// OS = predefined js function
+const os = require('os');
+console.log(os);
+console.log(os.homedir()); // OP - C:\Users\aath3
