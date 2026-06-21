@@ -13,5 +13,5 @@ server.listen(3000, 'localhost', () => {
     const port = 'http://localhost:3000/';
     log('listening at : ',port);
 
-    log(_.random(1,10)); // generate random num using lodash dependencies
+    log(_.random('Random number',1,10)); // generate random num using lodash dependencies
 })
